@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: aqua;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: rgb(92, 221, 221);
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 80px;
+}
+
+.center a{
+    text-decoration: none;
+    padding: 10px 18px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.center:hover a{
+    background: navy;
+}
+
+.center ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+/* About */
+.first{
+    padding-left: 100px;
+}
+.overvivw{
+    font-style:inherit;
+}
+/* bus stand */
+.second{
+    padding-left: 100px;
+}
+/* saheed smark */
+.third{
+    padding-left: 100px;
+}
+.one{
+    color:dimgray;
+    font-weight:initial;
+}
+
+
+.container {
+  width: 100%;        /* mobile-friendly */
+  max-width: 1200px;  /* desktop limit */
+  margin: 0 auto;     /* center align */
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;  /* image phone screen me fit ho jaye */
+  height: auto;
+}
